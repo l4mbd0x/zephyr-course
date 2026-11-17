@@ -1,0 +1,6 @@
+west:
+  command: C:\Users\Nicol\Projects\git-repos\Other_projects\westWorkspace\.venv\Scripts\west
+    build -b esp32s3_devkitc/esp32s3/procpu app-blink-s3-wroom-1-n8r2-devkitc-rev1.0/
+    -d build-s3
+  topdir: C:\Users\Nicol\Projects\git-repos\Other_projects\westWorkspace
+  version: 1.5.0

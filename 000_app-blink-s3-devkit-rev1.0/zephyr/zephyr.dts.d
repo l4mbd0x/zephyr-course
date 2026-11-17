@@ -1,0 +1,33 @@
+empty_file.o: \
+ C:/Users/Nicol/Projects/git-repos/Other_projects/westWorkspace/deps/zephyr/misc/empty_file.c \
+ C:/Users/Nicol/Projects/git-repos/Other_projects/westWorkspace/deps/zephyr/boards/espressif/esp32s3_devkitc/esp32s3_devkitc_procpu.dts \
+ C:/Users/Nicol/Projects/git-repos/Other_projects/westWorkspace/deps/zephyr/dts/xtensa/espressif/esp32s3/esp32s3_wroom_n8.dtsi \
+ C:/Users/Nicol/Projects/git-repos/Other_projects/westWorkspace/deps/zephyr/dts/xtensa/espressif/esp32s3/esp32s3_common.dtsi \
+ C:/Users/Nicol/Projects/git-repos/Other_projects/westWorkspace/deps/zephyr/dts/common/mem.h \
+ C:/Users/Nicol/Projects/git-repos/Other_projects/westWorkspace/deps/zephyr/dts/common/freq.h \
+ C:/Users/Nicol/Projects/git-repos/Other_projects/westWorkspace/deps/zephyr/dts/xtensa/xtensa.dtsi \
+ C:/Users/Nicol/Projects/git-repos/Other_projects/westWorkspace/deps/zephyr/dts/common/skeleton.dtsi \
+ C:/Users/Nicol/Projects/git-repos/Other_projects/westWorkspace/deps/zephyr/include/zephyr/dt-bindings/adc/adc.h \
+ C:/Users/Nicol/Projects/git-repos/Other_projects/westWorkspace/deps/zephyr/include/zephyr/dt-bindings/dt-util.h \
+ C:/Users/Nicol/Projects/git-repos/Other_projects/westWorkspace/deps/zephyr/include/zephyr/sys/util_macro.h \
+ C:/Users/Nicol/Projects/git-repos/Other_projects/westWorkspace/deps/zephyr/include/zephyr/sys/util_internal.h \
+ C:/Users/Nicol/Projects/git-repos/Other_projects/westWorkspace/deps/zephyr/include/zephyr/sys/util_loops.h \
+ C:/Users/Nicol/Projects/git-repos/Other_projects/westWorkspace/deps/zephyr/include/zephyr/sys/util_listify.h \
+ C:/Users/Nicol/Projects/git-repos/Other_projects/westWorkspace/deps/zephyr/include/zephyr/sys/util_internal_is_eq.h \
+ C:/Users/Nicol/Projects/git-repos/Other_projects/westWorkspace/deps/zephyr/include/zephyr/sys/util_internal_util_inc.h \
+ C:/Users/Nicol/Projects/git-repos/Other_projects/westWorkspace/deps/zephyr/include/zephyr/sys/util_internal_util_dec.h \
+ C:/Users/Nicol/Projects/git-repos/Other_projects/westWorkspace/deps/zephyr/include/zephyr/sys/util_internal_util_x2.h \
+ C:/Users/Nicol/Projects/git-repos/Other_projects/westWorkspace/deps/zephyr/include/zephyr/dt-bindings/gpio/gpio.h \
+ C:/Users/Nicol/Projects/git-repos/Other_projects/westWorkspace/deps/zephyr/include/zephyr/dt-bindings/i2c/i2c.h \
+ C:/Users/Nicol/Projects/git-repos/Other_projects/westWorkspace/deps/zephyr/include/zephyr/dt-bindings/clock/esp32s3_clock.h \
+ C:/Users/Nicol/Projects/git-repos/Other_projects/westWorkspace/deps/zephyr/include/zephyr/dt-bindings/interrupt-controller/esp32s3-xtensa-intmux.h \
+ C:/Users/Nicol/Projects/git-repos/Other_projects/westWorkspace/deps/zephyr/include/zephyr/dt-bindings/pinctrl/esp32s3-pinctrl.h \
+ C:/Users/Nicol/Projects/git-repos/Other_projects/westWorkspace/deps/zephyr/include/zephyr/dt-bindings/input/input-event-codes.h \
+ C:/Users/Nicol/Projects/git-repos/Other_projects/westWorkspace/deps/zephyr/include/zephyr/dt-bindings/input/esp32-touch-sensor-input.h \
+ C:/Users/Nicol/Projects/git-repos/Other_projects/westWorkspace/deps/zephyr/dts/vendor/espressif/partitions_0x0_amp.dtsi \
+ C:/Users/Nicol/Projects/git-repos/Other_projects/westWorkspace/deps/zephyr/dts/vendor/espressif/partitions_0x0_amp_4M.dtsi \
+ C:/Users/Nicol/Projects/git-repos/Other_projects/westWorkspace/deps/zephyr/boards/espressif/esp32s3_devkitc/esp32s3_devkitc-pinctrl.dtsi \
+ C:/Users/Nicol/Projects/git-repos/Other_projects/westWorkspace/deps/zephyr/include/zephyr/dt-bindings/pinctrl/esp-pinctrl-common.h \
+ C:/Users/Nicol/Projects/git-repos/Other_projects/westWorkspace/deps/zephyr/include/zephyr/dt-bindings/pinctrl/esp32s3-gpio-sigmap.h \
+ C:/Users/Nicol/Projects/git-repos/Other_projects/westWorkspace/zephyr-course/app-blink-s3-wroom-1-n8r2-devkitc-rev1.0/boards/esp32s3_devkitc_procpu.overlay \
+ C:/Users/Nicol/Projects/git-repos/Other_projects/westWorkspace/deps/zephyr/include/zephyr/dt-bindings/led/led.h

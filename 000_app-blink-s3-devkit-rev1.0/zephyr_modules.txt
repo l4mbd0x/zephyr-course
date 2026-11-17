@@ -1,0 +1,2 @@
+"cmsis_6":"C:/Users/Nicol/Projects/git-repos/Other_projects/westWorkspace/deps/modules/hal/cmsis_6":"${ZEPHYR_CMSIS_6_CMAKE_DIR}"
+"hal_espressif":"C:/Users/Nicol/Projects/git-repos/Other_projects/westWorkspace/deps/modules/hal/espressif":"C:/Users/Nicol/Projects/git-repos/Other_projects/westWorkspace/deps/modules/hal/espressif/zephyr"
