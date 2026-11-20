@@ -1,0 +1,23 @@
+choice 
+    prompt "LED blink speed"
+    default BLINK_SLEEP_1000MS
+
+    config BLINK_SLEEP_200MS
+        bool "Fast"
+        
+    config BLINK_SLEEP_1000MS
+        bool "Normal"
+
+    config BLINK_SLEEP_2000MS
+        bool "SLOW"
+
+endchoice
+
+config BLINK_SLEEP_TIME_MS
+    int
+    default 200 if BLINK_SLEEP_200MS
+    default 1000 if BLINK_SLEEP_1000MS
+    default 2000 if BLINK_SLEEP_2000MS
+    default 0
+
+source "Kconfig.zephyr"
