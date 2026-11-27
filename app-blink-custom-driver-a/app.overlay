@@ -1,0 +1,53 @@
+#include <zephyr/dt-bindings/gpio/gpio.h>
+#include <zephyr/dt-bindings/led/led.h>
+#include <zephyr/dt-bindings/pinctrl/esp32s3-pinctrl.h>
+
+/*** NOTES FOR FUTURE ME
+
+at the time of this assignment I didn't have a led and resistor laying
+around to create a simple blinking led, so I used the RGB led of the esp32s3
+defioned at the overlay file from my previous assignment and wrapped it inside
+the sample_fetch / channel_get callbacks of this our driver
+*/
+
+/ {
+    model = "Espressif ESP32S3-WROOM-1-N4R2 REV 1.0";
+    compatible = "espressif,esp32s3";
+
+    aliases {
+        led-strip     = &led_strip;
+        my-led-sensor = &my_led_sensor;
+    };
+
+    my_led_sensor: my_led_sensor {
+        compatible = "our,driver";
+        led-strip = <&led_strip>;
+    };
+};
+
+&pinctrl {
+    spim3_ws2812: spim3_ws2812 {
+        group1 {
+            /* GPIO48 on board rev v1.0, GPIO38 on v1.1 */
+            pinmux = <ESP32_PINMUX(48, ESP_NOSIG, ESP_SPI3_D_OUT)>;
+            output-low;
+        };
+    };
+};
+
+&spi3 {
+    status = "okay";
+    pinctrl-0 = <&spim3_ws2812>;
+    pinctrl-names = "default";
+    line-idle-low;
+
+    led_strip: ws2812@0 {
+        compatible = "worldsemi,ws2812-spi";
+        reg = <0>;
+        chain-length = <1>;
+        color-mapping = <LED_COLOR_ID_GREEN LED_COLOR_ID_RED LED_COLOR_ID_BLUE>;
+        spi-max-frequency = <8000000>;
+        spi-one-frame     = <0xF8>;
+        spi-zero-frame    = <0xC0>;
+    };
+};

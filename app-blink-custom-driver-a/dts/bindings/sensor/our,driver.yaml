@@ -1,0 +1,9 @@
+description: WS2812 LED strip sensor wrapper
+compatible: "our,driver"
+include: base.yaml
+
+properties:
+  led-strip:
+    type: phandle
+    required: true
+    description: LED strip device to control
