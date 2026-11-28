@@ -1,0 +1,14 @@
+description: WS2812 LED strip sensor wrapper
+compatible: "our,driver"
+include: base.yaml
+
+properties:
+  led-strip:
+    type: phandle
+    required: true
+    description: LED strip device to control
+
+  custom-api:
+    type: string
+    required: true
+    description: Name of the custom API struct
